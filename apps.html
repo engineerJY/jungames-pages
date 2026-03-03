@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JunGames - Apps</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Hiragino Sans', sans-serif;
+            background: #111;
+            color: #fff;
+            min-height: 100vh;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px 20px;
+        }
+        header h1 {
+            font-size: 2em;
+            letter-spacing: 2px;
+        }
+        header p {
+            color: #999;
+            margin-top: 8px;
+            font-size: 0.95em;
+        }
+        .apps {
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .app-card {
+            background: #1a1a2e;
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            transition: transform 0.2s;
+        }
+        .app-card:hover {
+            transform: translateY(-2px);
+        }
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 18px;
+            background: #222;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2em;
+        }
+        .app-info { flex: 1; }
+        .app-info h2 {
+            font-size: 1.2em;
+            margin-bottom: 6px;
+        }
+        .app-info p {
+            color: #aaa;
+            font-size: 0.85em;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+        .app-links a {
+            display: inline-block;
+            background: #0066ff;
+            color: #fff;
+            text-decoration: none;
+            padding: 6px 16px;
+            border-radius: 8px;
+            font-size: 0.85em;
+            margin-right: 8px;
+            margin-bottom: 4px;
+        }
+        .app-links a:hover { background: #0055dd; }
+        .app-links a.privacy {
+            background: transparent;
+            border: 1px solid #555;
+            color: #aaa;
+        }
+        .app-links a.privacy:hover { border-color: #888; color: #fff; }
+        .badge {
+            color: #4ade80;
+            font-size: 0.75em;
+            border: 1px solid #4ade80;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-left: 8px;
+            vertical-align: middle;
+        }
+        .badge.dev {
+            color: #facc15;
+            border-color: #facc15;
+        }
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #555;
+            font-size: 0.8em;
+        }
+        footer a { color: #777; text-decoration: none; }
+        footer a:hover { color: #aaa; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>JunGames</h1>
+        <p>Mobile Apps & Games</p>
+    </header>
+
+    <div class="apps">
+        <div class="app-card">
+            <div class="app-icon">🎰</div>
+            <div class="app-info">
+                <h2>P-Simulator <span class="badge dev">In Development</span></h2>
+                <p>パチンコ確率体験シミュレーター。実機準拠の65536乱数方式で大当たり演出を再現。</p>
+                <div class="app-links">
+                    <a href="https://engineerjy.github.io/pachi2/" class="privacy">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="app-card">
+            <div class="app-icon">🎲</div>
+            <div class="app-info">
+                <h2>ちびこまドットガチャ <span class="badge">Released</span></h2>
+                <p>かわいいドット絵キャラクターを集めるガチャアプリ。</p>
+                <div class="app-links">
+                    <a href="https://apps.apple.com/us/app/%E3%81%A1%E3%81%B3%E3%81%93%E3%81%BE%E3%83%89%E3%83%83%E3%83%88%E3%82%AC%E3%83%81%E3%83%A3/id6503243535">App Store</a>
+                    <a href="https://engineerjy.github.io/pachi2/chibikoma-privacy.html" class="privacy">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024-2026 JunGames / engineerJY</p>
+        <p><a href="https://github.com/engineerJY">GitHub</a></p>
+    </footer>
+</body>
+</html>
