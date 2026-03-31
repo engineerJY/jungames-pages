@@ -3,46 +3,159 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy - P-Simulator</title>
+    <title>JunGames - Apps</title>
     <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-            max-width: 700px;
-            margin: 0 auto;
-            padding: 20px;
-            line-height: 1.8;
-            color: #333;
-            background: #fafafa;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Hiragino Sans', sans-serif;
+            background: #111;
+            color: #fff;
+            min-height: 100vh;
         }
-        h1 { font-size: 1.6em; border-bottom: 2px solid #333; padding-bottom: 8px; }
-        h2 { font-size: 1.2em; margin-top: 1.5em; }
-        .date { color: #666; font-size: 0.9em; }
+        header {
+            text-align: center;
+            padding: 40px 20px 20px;
+        }
+        header h1 {
+            font-size: 2em;
+            letter-spacing: 2px;
+        }
+        header p {
+            color: #999;
+            margin-top: 8px;
+            font-size: 0.95em;
+        }
+        .apps {
+            max-width: 600px;
+            margin: 30px auto;
+            padding: 0 20px;
+        }
+        .app-card {
+            background: #1a1a2e;
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            transition: transform 0.2s;
+        }
+        .app-card:hover {
+            transform: translateY(-2px);
+        }
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            border-radius: 18px;
+            background: #222;
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2em;
+            overflow: hidden;
+        }
+        .app-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .app-info { flex: 1; }
+        .app-info h2 {
+            font-size: 1.2em;
+            margin-bottom: 6px;
+        }
+        .app-info p {
+            color: #aaa;
+            font-size: 0.85em;
+            line-height: 1.5;
+            margin-bottom: 10px;
+        }
+        .app-links a {
+            display: inline-block;
+            background: #0066ff;
+            color: #fff;
+            text-decoration: none;
+            padding: 6px 16px;
+            border-radius: 8px;
+            font-size: 0.85em;
+            margin-right: 8px;
+            margin-bottom: 4px;
+        }
+        .app-links a:hover { background: #0055dd; }
+        .app-links a.privacy {
+            background: transparent;
+            border: 1px solid #555;
+            color: #aaa;
+        }
+        .app-links a.privacy:hover { border-color: #888; color: #fff; }
+        .badge {
+            color: #4ade80;
+            font-size: 0.75em;
+            border: 1px solid #4ade80;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-left: 8px;
+            vertical-align: middle;
+        }
+        .badge.dev {
+            color: #facc15;
+            border-color: #facc15;
+        }
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #555;
+            font-size: 0.8em;
+        }
+        footer a { color: #777; text-decoration: none; }
+        footer a:hover { color: #aaa; }
     </style>
 </head>
 <body>
-    <h1>Privacy Policy</h1>
-    <p class="date">Last updated: March 1, 2026</p>
+    <header>
+        <h1>JunGames</h1>
+        <p>Mobile Apps & Games</p>
+    </header>
 
-    <h2>About This App</h2>
-    <p>P-Simulator (hereinafter referred to as "this app") is provided by engineerJY (hereinafter referred to as "the developer").</p>
+    <div class="apps">
+        <div class="app-card">
+            <div class="app-icon"><img src="psimulator-icon.jpg" alt="P-Simulator"></div>
+            <div class="app-info">
+                <h2>P-Simulator <span class="badge dev">In Development</span></h2>
+                <p>通常時1/399、ラッシュはオール3000発で75%継続！あの機種みたいなシミュレーター登場！</p>
+                <div class="app-links">
+                    <a href="psimulator-privacy.html" class="privacy">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
 
-    <h2>Collection of Personal Information</h2>
-    <p>This app does not collect, store, or transmit any personal information or user data.</p>
+        <div class="app-card">
+            <div class="app-icon"><img src="chibikoma-icon.png" alt="ちびこまドットガチャ"></div>
+            <div class="app-info">
+                <h2>ちびこまドットガチャ <span class="badge">Released</span></h2>
+                <p>かわいいドット絵キャラクターを集めるガチャアプリ。</p>
+                <div class="app-links">
+                    <a href="https://apps.apple.com/us/app/%E3%81%A1%E3%81%B3%E3%81%93%E3%81%BE%E3%83%89%E3%83%83%E3%83%88%E3%82%AC%E3%83%81%E3%83%A3/id6503243535">App Store</a>
+                    <a href="chibikoma-privacy.html" class="privacy">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
 
-    <h2>Third-Party Services</h2>
-    <p>This app does not use any third-party analytics, advertising, or tracking services.</p>
+        <div class="app-card">
+            <div class="app-icon" style="background:#1a2e1a;color:#4ade80;font-size:1.6em;">&#127920;</div>
+            <div class="app-info">
+                <h2>パチスロ狙い目判定 <span class="badge dev">New</span></h2>
+                <p>機種を選んでゲーム数を入力するだけ。天井期待値から打つべきかを瞬時に判定！</p>
+                <div class="app-links">
+                    <a href="neraime/">Web App</a>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <h2>Data Storage</h2>
-    <p>All data generated by this app is stored locally on your device only and is not transmitted to any external servers.</p>
-
-    <h2>Children's Privacy</h2>
-    <p>This app does not knowingly collect any personal information from children.</p>
-
-    <h2>Changes to This Policy</h2>
-    <p>The developer reserves the right to update this privacy policy at any time. Any changes will be reflected on this page with an updated date.</p>
-
-    <h2>Contact</h2>
-    <p>If you have any questions about this privacy policy, please contact us at:<br>
-    <a href="mailto:jyokota0130@gmail.com">jyokota0130@gmail.com</a></p>
+    <footer>
+        <p>&copy; 2024-2026 JunGames</p>
+    </footer>
 </body>
 </html>
