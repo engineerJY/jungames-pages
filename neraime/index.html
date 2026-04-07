@@ -617,20 +617,29 @@
 
         // Interpolate EV
         function getEV(gameCount) {
-            const table = selectedMachine.evTable[exchangeRate];
-            if (!table) return null;
+            const table = selectedMachine.evTable ? selectedMachine.evTable[exchangeRate] : null;
+            if (table) {
+                const keys = Object.keys(table).map(Number).sort((a, b) => a - b);
+                if (gameCount <= keys[0]) return table[keys[0]];
+                if (gameCount >= keys[keys.length - 1]) return table[keys[keys.length - 1]];
 
-            const keys = Object.keys(table).map(Number).sort((a, b) => a - b);
-            if (gameCount <= keys[0]) return table[keys[0]];
-            if (gameCount >= keys[keys.length - 1]) return table[keys[keys.length - 1]];
-
-            for (let i = 0; i < keys.length - 1; i++) {
-                if (gameCount >= keys[i] && gameCount <= keys[i + 1]) {
-                    const ratio = (gameCount - keys[i]) / (keys[i + 1] - keys[i]);
-                    return Math.round(table[keys[i]] + (table[keys[i + 1]] - table[keys[i]]) * ratio);
+                for (let i = 0; i < keys.length - 1; i++) {
+                    if (gameCount >= keys[i] && gameCount <= keys[i + 1]) {
+                        const ratio = (gameCount - keys[i]) / (keys[i + 1] - keys[i]);
+                        return Math.round(table[keys[i]] + (table[keys[i + 1]] - table[keys[i]]) * ratio);
+                    }
                 }
+                return null;
             }
-            return null;
+
+            // evTableがない機種: 天井までの残りG数から簡易計算
+            const ceiling = selectedMachine.ceilingGame;
+            if (!ceiling || ceiling <= 0) return 0;
+            const remaining = Math.max(0, ceiling - gameCount);
+            const cost = Math.round(remaining / 31.5 * 1000); // 投資額（1000円/31.5G）
+            const reward = 15000; // 天井到達時の平均恩恵（概算）
+            const hitRate = Math.min(1, gameCount / ceiling); // 天井到達確率（簡易）
+            return Math.round(reward * hitRate - cost);
         }
 
         // Judge
