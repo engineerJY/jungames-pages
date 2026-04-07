@@ -9,7 +9,7 @@ import json
 import re
 import urllib.request
 
-RANKING_URL = "https://p-town.dmm.com/rankings/machines/slot"
+RANKING_URL = "https://p-town.dmm.com/machines/popularity/slot"
 MACHINES_JSON = "neraime/data/machines.json"
 
 
@@ -22,26 +22,35 @@ def fetch_ranking():
     with urllib.request.urlopen(req, timeout=15) as res:
         html = res.read().decode("utf-8")
 
-    # ランキングセクション(list-winningranking)内の機種名だけ抽出
-    ranking_section = re.search(
-        r'list-winningranking -machine.*?</ol>', html, re.DOTALL
-    )
-    if not ranking_section:
-        print("Warning: ranking section not found")
+    # 「パチスロ人気機種」以降の機種名を抽出
+    idx = html.find("パチスロ人気機種")
+    if idx < 0:
+        print("Warning: popularity section not found")
         return []
 
-    section_html = ranking_section.group(0)
+    section_html = html[idx:]
     pattern = r'<p class="title">([^<]+)</p>'
     matches = re.findall(pattern, section_html)
+    # 「パチスロ人気機種」自体を除外
+    matches = [m for m in matches if "人気機種" not in m]
+
+    # ナビゲーション項目を除外
+    ignore = {"店舗", "取材", "レポート", "ランキング", "看板", "グランド",
+              "機種情報", "カレンダー", "天井情報", "ボーダー", "検定",
+              "メーカー", "特集", "動画", "ブログ", "ぱちモ", "コミュニティ",
+              "業界", "人気機種"}
 
     # 重複除去しつつ順番維持
     seen = set()
     ranking = []
     for name in matches:
         name = name.strip()
-        if name and name not in seen:
-            seen.add(name)
-            ranking.append(name)
+        if not name or name in seen:
+            continue
+        if any(kw in name for kw in ignore):
+            continue
+        seen.add(name)
+        ranking.append(name)
 
     return ranking
 
