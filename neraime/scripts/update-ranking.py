@@ -29,10 +29,14 @@ def fetch_ranking():
         return []
 
     section_html = html[idx:]
-    pattern = r'<p class="title">([^<]+)</p>'
-    matches = re.findall(pattern, section_html)
-    # 「パチスロ人気機種」自体を除外
+
+    # Top 10: <p class="title">機種名</p>
+    matches = re.findall(r'<p class="title">([^<]+)</p>', section_html)
     matches = [m for m in matches if "人気機種" not in m]
+
+    # 11位〜: "11位　機種名" テキスト形式
+    text_matches = re.findall(r'\d+位[　\s]+(.+)', section_html)
+    matches.extend(text_matches)
 
     # ナビゲーション項目を除外
     ignore = {"店舗", "取材", "レポート", "ランキング", "看板", "グランド",
