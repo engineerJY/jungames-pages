@@ -617,8 +617,9 @@
 
         // Interpolate EV
         function getEV(gameCount) {
-            const table = selectedMachine.evTable ? selectedMachine.evTable[exchangeRate] : null;
-            if (table) {
+            const evData = selectedMachine.evTable || {};
+            const table = evData[exchangeRate];
+            if (table && Object.keys(table).length > 0) {
                 const keys = Object.keys(table).map(Number).sort((a, b) => a - b);
                 if (gameCount <= keys[0]) return table[keys[0]];
                 if (gameCount >= keys[keys.length - 1]) return table[keys[keys.length - 1]];
@@ -651,7 +652,10 @@
             }
 
             const ev = getEV(gameCount);
-            if (ev === null) return;
+            if (ev === null || ev === undefined) {
+                alert('この機種の期待値データがありません');
+                return;
+            }
 
             const result = document.getElementById('result');
             const label = document.getElementById('resultLabel');
@@ -703,6 +707,7 @@
 
         // EV Table
         function renderEvTable(currentG) {
+            if (!selectedMachine.evTable) return;
             const table = selectedMachine.evTable[exchangeRate];
             if (!table) return;
             const keys = Object.keys(table).map(Number).sort((a, b) => a - b);
