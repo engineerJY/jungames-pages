@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
     <title>パチスロ狙い目判定</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -493,7 +496,7 @@
         let exchangeRate = 'equal';
 
         // Load data
-        fetch('data/machines.json')
+        fetch('data/machines.json?t=' + Date.now())
             .then(r => r.json())
             .then(data => {
                 machines = data;
