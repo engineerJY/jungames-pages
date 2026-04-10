@@ -316,19 +316,6 @@
     }
   },
   {
-    "id": "koukaku",
-    "name": "スマスロ 攻殻機動隊",
-    "maker": "サミー",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 800,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
-  },
-  {
     "id": "monkey-turn-v",
     "name": "Lモンキーターン V",
     "maker": "山佐ネクスト",
@@ -377,6 +364,19 @@
         "750": 6468
       }
     }
+  },
+  {
+    "id": "koukaku",
+    "name": "スマスロ 攻殻機動隊",
+    "maker": "サミー",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 800,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
   },
   {
     "id": "tekken6",
