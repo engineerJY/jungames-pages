@@ -13,9 +13,9 @@
     "evTable": {}
   },
   {
-    "id": "enen2",
-    "name": "Lパチスロ 炎炎ノ消防隊2",
-    "maker": "メーシー",
+    "id": "yormungand",
+    "name": "スマスロヨルムンガンド",
+    "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
     "ceilingGame": 800,
@@ -96,6 +96,19 @@
         "1150": 9535
       }
     }
+  },
+  {
+    "id": "enen2",
+    "name": "Lパチスロ 炎炎ノ消防隊2",
+    "maker": "メーシー",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 800,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
   },
   {
     "id": "hokuto-tensei2",
@@ -233,19 +246,6 @@
     }
   },
   {
-    "id": "yormungand",
-    "name": "スマスロヨルムンガンド",
-    "maker": "サミー",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 800,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
-  },
-  {
     "id": "valvrave2",
     "name": "L革命機ヴァルヴレイヴ2",
     "maker": "SANKYO",
@@ -366,19 +366,6 @@
     }
   },
   {
-    "id": "koukaku",
-    "name": "スマスロ 攻殻機動隊",
-    "maker": "サミー",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 800,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
-  },
-  {
     "id": "tekken6",
     "name": "スマスロ鉄拳6",
     "maker": "山佐",
@@ -427,32 +414,6 @@
     }
   },
   {
-    "id": "kaguya",
-    "name": "パチスロ かぐや様は告らせたい",
-    "maker": "SANKYO",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 800,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
-  },
-  {
-    "id": "tokyo-revengers",
-    "name": "スマスロ 東京リベンジャーズ",
-    "maker": "サミー",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 800,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
-  },
-  {
     "id": "million-god",
     "name": "スマスロ ミリオンゴッド-神々の軌跡-",
     "maker": "ユニバーサル",
@@ -466,8 +427,47 @@
     "evTable": {}
   },
   {
+    "id": "koukaku",
+    "name": "スマスロ 攻殻機動隊",
+    "maker": "サミー",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 800,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
+  },
+  {
+    "id": "kaguya",
+    "name": "パチスロ かぐや様は告らせたい",
+    "maker": "SANKYO",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 800,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
+  },
+  {
     "id": "bakemonogatari",
     "name": "スマスロ 化物語",
+    "maker": "サミー",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 800,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
+  },
+  {
+    "id": "tokyo-revengers",
+    "name": "スマスロ 東京リベンジャーズ",
     "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
