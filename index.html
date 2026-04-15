@@ -25,6 +25,25 @@
             margin-top: 8px;
             font-size: 0.95em;
         }
+        .social {
+            margin-top: 16px;
+        }
+        .social a {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background: #222;
+            transition: background 0.2s;
+        }
+        .social a:hover { background: #ff0000; }
+        .social svg {
+            width: 22px;
+            height: 22px;
+            fill: #fff;
+        }
         .apps {
             max-width: 600px;
             margin: 30px auto;
@@ -116,6 +135,11 @@
     <header>
         <h1>JunGames</h1>
         <p>Mobile Apps & Games</p>
+        <div class="social">
+            <a href="https://www.youtube.com/@pachi_chance" target="_blank" rel="noopener" aria-label="YouTube">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            </a>
+        </div>
     </header>
 
     <div class="apps">
@@ -139,6 +163,17 @@
                 <p>通常時1/399、ラッシュはオール3000発で75%継続！あの機種みたいなシミュレーター登場！</p>
                 <div class="app-links">
                     <a href="psimulator-privacy.html" class="privacy">Privacy Policy</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="app-card">
+            <div class="app-icon"><img src="yoruha-icon.png" alt="夜霧ヨルハ"></div>
+            <div class="app-info">
+                <h2>夜霧ヨルハ <span class="badge dev">New</span></h2>
+                <p>夜霧ヨルハが冒険するアクションゲーム。ブラウザで遊べます。</p>
+                <div class="app-links">
+                    <a href="kurone-adventure/">Web App</a>
                 </div>
             </div>
         </div>
