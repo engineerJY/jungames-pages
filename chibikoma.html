@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ちびこまドットガチャ - JunGames</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Hiragino Sans', sans-serif;
+            background: #111;
+            color: #fff;
+            min-height: 100vh;
+            line-height: 1.7;
+        }
+        header {
+            text-align: center;
+            padding: 40px 20px 10px;
+        }
+        header .back {
+            display: inline-block;
+            color: #888;
+            text-decoration: none;
+            font-size: 0.85em;
+            margin-bottom: 20px;
+        }
+        header .back:hover { color: #fff; }
+        .hero {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .hero-icon {
+            width: 120px;
+            height: 120px;
+            border-radius: 26px;
+            overflow: hidden;
+            margin-bottom: 20px;
+            background: #222;
+        }
+        .hero-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .hero h1 {
+            font-size: 1.8em;
+            margin-bottom: 8px;
+            text-align: center;
+        }
+        .hero .tagline {
+            color: #999;
+            font-size: 1em;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .app-store-btn {
+            display: inline-block;
+            background: #0066ff;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 24px;
+            border-radius: 10px;
+            font-size: 0.95em;
+            margin-bottom: 30px;
+        }
+        .app-store-btn:hover { background: #0055dd; }
+        main {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 20px 20px 60px;
+        }
+        section {
+            background: #1a1a2e;
+            border-radius: 16px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+        section h2 {
+            font-size: 1.2em;
+            margin-bottom: 14px;
+            border-bottom: 1px solid #333;
+            padding-bottom: 8px;
+        }
+        section p {
+            color: #ccc;
+            font-size: 0.95em;
+            margin-bottom: 10px;
+        }
+        .features {
+            list-style: none;
+            padding: 0;
+        }
+        .features li {
+            margin-bottom: 18px;
+            padding-left: 28px;
+            position: relative;
+            color: #ccc;
+            font-size: 0.95em;
+        }
+        .features li::before {
+            content: "▶";
+            position: absolute;
+            left: 0;
+            top: 2px;
+            color: #4ade80;
+            font-size: 0.8em;
+        }
+        .features li strong {
+            color: #fff;
+            display: block;
+            margin-bottom: 4px;
+        }
+        .links a {
+            display: inline-block;
+            background: transparent;
+            border: 1px solid #555;
+            color: #aaa;
+            text-decoration: none;
+            padding: 8px 18px;
+            border-radius: 8px;
+            font-size: 0.9em;
+            margin-right: 8px;
+            margin-bottom: 8px;
+        }
+        .links a:hover { border-color: #888; color: #fff; }
+        .links a.primary {
+            background: #0066ff;
+            border-color: #0066ff;
+            color: #fff;
+        }
+        .links a.primary:hover { background: #0055dd; }
+        .contact {
+            color: #ccc;
+            font-size: 0.9em;
+        }
+        .contact a { color: #66aaff; }
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            color: #555;
+            font-size: 0.8em;
+        }
+        footer a { color: #777; text-decoration: none; }
+        footer a:hover { color: #aaa; }
+    </style>
+</head>
+<body>
+    <header>
+        <div style="max-width:700px;margin:0 auto;text-align:left;padding:0 20px;">
+            <a href="index.html" class="back">← JunGames Apps</a>
+        </div>
+        <div class="hero">
+            <div class="hero-icon"><img src="chibikoma-icon.png" alt="ちびこまドットガチャ"></div>
+            <h1>ちびこまドットガチャ</h1>
+            <p class="tagline">かわいいドット絵キャラクターを集めるガチャアプリ</p>
+            <a href="https://apps.apple.com/us/app/%E3%81%A1%E3%81%B3%E3%81%93%E3%81%BE%E3%83%89%E3%83%83%E3%83%88%E3%82%AC%E3%83%81%E3%83%A3/id6503243535" class="app-store-btn">App Storeで入手</a>
+        </div>
+    </header>
+
+    <main>
+        <section>
+            <h2>概要</h2>
+            <p>「ちびこまドット」というかわいいドット絵キャラクターをボタン操作で召喚できるガチャアプリです。さまざまな属性・ランクのキャラクターを集めて、コンプリートを目指しましょう！</p>
+        </section>
+
+        <section>
+            <h2>特徴</h2>
+            <ul class="features">
+                <li>
+                    <strong>キャラ召喚機能</strong>
+                    Playボタンで様々な属性とランクのキャラを召喚可能。
+                </li>
+                <li>
+                    <strong>一覧確認機能</strong>
+                    召喚したキャラを属性やランク情報付きで確認できます。
+                </li>
+                <li>
+                    <strong>コンプリート報酬</strong>
+                    全キャラ召喚時に祝福メッセージが表示されます。
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>リンク</h2>
+            <div class="links">
+                <a href="https://apps.apple.com/us/app/%E3%81%A1%E3%81%B3%E3%81%93%E3%81%BE%E3%83%89%E3%83%83%E3%83%88%E3%82%AC%E3%83%81%E3%83%A3/id6503243535" class="primary">App Store</a>
+                <a href="chibikoma-privacy.html">プライバシーポリシー</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>お問い合わせ・サポート</h2>
+            <p class="contact">ご質問・不具合報告などは下記までお気軽にご連絡ください。</p>
+            <p class="contact">Email: <a href="mailto:jyokota0130@gmail.com">jyokota0130@gmail.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024-2026 JunGames</p>
+    </footer>
+</body>
+</html>
