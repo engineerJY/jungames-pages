@@ -246,6 +246,19 @@
     }
   },
   {
+    "id": "million-god",
+    "name": "スマスロ ミリオンゴッド-神々の軌跡-",
+    "maker": "ユニバーサル",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 1000,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
+  },
+  {
     "id": "valvrave2",
     "name": "L革命機ヴァルヴレイヴ2",
     "maker": "SANKYO",
@@ -316,19 +329,6 @@
     }
   },
   {
-    "id": "million-god",
-    "name": "スマスロ ミリオンゴッド-神々の軌跡-",
-    "maker": "ユニバーサル",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 1000,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
-  },
-  {
     "id": "monkey-turn-v",
     "name": "Lモンキーターン V",
     "maker": "山佐ネクスト",
@@ -379,6 +379,19 @@
     }
   },
   {
+    "id": "koukaku",
+    "name": "スマスロ 攻殻機動隊",
+    "maker": "サミー",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 800,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
+  },
+  {
     "id": "tekken6",
     "name": "スマスロ鉄拳6",
     "maker": "山佐",
@@ -427,19 +440,6 @@
     }
   },
   {
-    "id": "koukaku",
-    "name": "スマスロ 攻殻機動隊",
-    "maker": "サミー",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 800,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
-  },
-  {
     "id": "kaguya",
     "name": "パチスロ かぐや様は告らせたい",
     "maker": "SANKYO",
@@ -479,9 +479,9 @@
     "evTable": {}
   },
   {
-    "id": "god-eater",
-    "name": "スマスロ ゴッドイーター リザレクション",
-    "maker": "サミー",
+    "id": "magireco",
+    "name": "スマスロ マギアレコード 魔法少女まどか☆マギカ外伝",
+    "maker": "メーシー",
     "category": "スマスロ",
     "spec": "AT",
     "ceilingGame": 800,
@@ -492,9 +492,9 @@
     "evTable": {}
   },
   {
-    "id": "magireco",
-    "name": "スマスロ マギアレコード 魔法少女まどか☆マギカ外伝",
-    "maker": "メーシー",
+    "id": "god-eater",
+    "name": "スマスロ ゴッドイーター リザレクション",
+    "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
     "ceilingGame": 800,
