@@ -13,19 +13,6 @@
     "evTable": {}
   },
   {
-    "id": "yormungand",
-    "name": "スマスロヨルムンガンド",
-    "maker": "サミー",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 800,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
-  },
-  {
     "id": "tokyo-ghoul",
     "name": "L東京喰種",
     "maker": "クロスアルファ",
@@ -96,6 +83,19 @@
         "1150": 9535
       }
     }
+  },
+  {
+    "id": "yormungand",
+    "name": "スマスロヨルムンガンド",
+    "maker": "サミー",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 800,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
   },
   {
     "id": "enen2",
@@ -453,8 +453,8 @@
     "evTable": {}
   },
   {
-    "id": "bakemonogatari",
-    "name": "スマスロ 化物語",
+    "id": "tokyo-revengers",
+    "name": "スマスロ 東京リベンジャーズ",
     "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
@@ -466,8 +466,8 @@
     "evTable": {}
   },
   {
-    "id": "tokyo-revengers",
-    "name": "スマスロ 東京リベンジャーズ",
+    "id": "bakemonogatari",
+    "name": "スマスロ 化物語",
     "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
