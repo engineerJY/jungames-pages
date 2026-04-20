@@ -85,12 +85,12 @@
     }
   },
   {
-    "id": "yormungand",
-    "name": "スマスロヨルムンガンド",
-    "maker": "サミー",
+    "id": "million-god",
+    "name": "スマスロ ミリオンゴッド-神々の軌跡-",
+    "maker": "ユニバーサル",
     "category": "スマスロ",
     "spec": "AT",
-    "ceilingGame": 800,
+    "ceilingGame": 1000,
     "ceilingGameReset": null,
     "ceilingBenefit": "",
     "quitTiming": "",
@@ -246,12 +246,12 @@
     }
   },
   {
-    "id": "million-god",
-    "name": "スマスロ ミリオンゴッド-神々の軌跡-",
-    "maker": "ユニバーサル",
+    "id": "yormungand",
+    "name": "スマスロヨルムンガンド",
+    "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
-    "ceilingGame": 1000,
+    "ceilingGame": 800,
     "ceilingGameReset": null,
     "ceilingBenefit": "",
     "quitTiming": "",
