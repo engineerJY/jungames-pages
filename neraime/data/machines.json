@@ -246,19 +246,6 @@
     }
   },
   {
-    "id": "yormungand",
-    "name": "スマスロヨルムンガンド",
-    "maker": "サミー",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 800,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
-  },
-  {
     "id": "valvrave2",
     "name": "L革命機ヴァルヴレイヴ2",
     "maker": "SANKYO",
@@ -327,6 +314,19 @@
         "1500": 10797
       }
     }
+  },
+  {
+    "id": "yormungand",
+    "name": "スマスロヨルムンガンド",
+    "maker": "サミー",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 800,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
   },
   {
     "id": "monkey-turn-v",
@@ -453,8 +453,8 @@
     "evTable": {}
   },
   {
-    "id": "tokyo-revengers",
-    "name": "スマスロ 東京リベンジャーズ",
+    "id": "bakemonogatari",
+    "name": "スマスロ 化物語",
     "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
@@ -466,8 +466,8 @@
     "evTable": {}
   },
   {
-    "id": "bakemonogatari",
-    "name": "スマスロ 化物語",
+    "id": "tokyo-revengers",
+    "name": "スマスロ 東京リベンジャーズ",
     "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
