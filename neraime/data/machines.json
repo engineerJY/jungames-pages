@@ -85,9 +85,9 @@
     }
   },
   {
-    "id": "yoshimune",
-    "name": "真打 吉宗",
-    "maker": "大都技研",
+    "id": "enen2",
+    "name": "Lパチスロ 炎炎ノ消防隊2",
+    "maker": "メーシー",
     "category": "スマスロ",
     "spec": "AT",
     "ceilingGame": 800,
@@ -98,9 +98,9 @@
     "evTable": {}
   },
   {
-    "id": "enen2",
-    "name": "Lパチスロ 炎炎ノ消防隊2",
-    "maker": "メーシー",
+    "id": "yoshimune",
+    "name": "真打 吉宗",
+    "maker": "大都技研",
     "category": "スマスロ",
     "spec": "AT",
     "ceilingGame": 800,
@@ -316,19 +316,6 @@
     }
   },
   {
-    "id": "yormungand",
-    "name": "スマスロヨルムンガンド",
-    "maker": "サミー",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 800,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
-  },
-  {
     "id": "monkey-turn-v",
     "name": "Lモンキーターン V",
     "maker": "山佐ネクスト",
@@ -379,9 +366,9 @@
     }
   },
   {
-    "id": "koukaku",
-    "name": "スマスロ 攻殻機動隊",
-    "maker": "サミー",
+    "id": "kaguya",
+    "name": "パチスロ かぐや様は告らせたい",
+    "maker": "SANKYO",
     "category": "スマスロ",
     "spec": "AT",
     "ceilingGame": 800,
@@ -440,9 +427,9 @@
     }
   },
   {
-    "id": "kaguya",
-    "name": "パチスロ かぐや様は告らせたい",
-    "maker": "SANKYO",
+    "id": "koukaku",
+    "name": "スマスロ 攻殻機動隊",
+    "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
     "ceilingGame": 800,
@@ -453,8 +440,8 @@
     "evTable": {}
   },
   {
-    "id": "bakemonogatari",
-    "name": "スマスロ 化物語",
+    "id": "yormungand",
+    "name": "スマスロヨルムンガンド",
     "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
@@ -479,8 +466,21 @@
     "evTable": {}
   },
   {
-    "id": "god-eater",
-    "name": "スマスロ ゴッドイーター リザレクション",
+    "id": "magireco",
+    "name": "スマスロ マギアレコード 魔法少女まどか☆マギカ外伝",
+    "maker": "メーシー",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 800,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
+  },
+  {
+    "id": "bakemonogatari",
+    "name": "スマスロ 化物語",
     "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
@@ -492,9 +492,9 @@
     "evTable": {}
   },
   {
-    "id": "magireco",
-    "name": "スマスロ マギアレコード 魔法少女まどか☆マギカ外伝",
-    "maker": "メーシー",
+    "id": "god-eater",
+    "name": "スマスロ ゴッドイーター リザレクション",
+    "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
     "ceilingGame": 800,
