@@ -440,8 +440,8 @@
     "evTable": {}
   },
   {
-    "id": "yormungand",
-    "name": "スマスロヨルムンガンド",
+    "id": "tokyo-revengers",
+    "name": "スマスロ 東京リベンジャーズ",
     "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
@@ -453,8 +453,8 @@
     "evTable": {}
   },
   {
-    "id": "tokyo-revengers",
-    "name": "スマスロ 東京リベンジャーズ",
+    "id": "yormungand",
+    "name": "スマスロヨルムンガンド",
     "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
@@ -563,19 +563,6 @@
     }
   },
   {
-    "id": "hihou-den",
-    "name": "スマスロ 秘宝伝",
-    "maker": "大都技研",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 800,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
-  },
-  {
     "id": "karakuri-circus",
     "name": "パチスロからくりサーカス",
     "maker": "SANKYO",
@@ -640,6 +627,19 @@
         "1150": 13554
       }
     }
+  },
+  {
+    "id": "hihou-den",
+    "name": "スマスロ 秘宝伝",
+    "maker": "大都技研",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 800,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
   },
   {
     "id": "kabaneri2",
