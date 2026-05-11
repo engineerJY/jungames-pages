@@ -427,6 +427,19 @@
     }
   },
   {
+    "id": "yormungand",
+    "name": "スマスロヨルムンガンド",
+    "maker": "サミー",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 800,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
+  },
+  {
     "id": "koukaku",
     "name": "スマスロ 攻殻機動隊",
     "maker": "サミー",
@@ -440,8 +453,8 @@
     "evTable": {}
   },
   {
-    "id": "tokyo-revengers",
-    "name": "スマスロ 東京リベンジャーズ",
+    "id": "god-eater",
+    "name": "スマスロ ゴッドイーター リザレクション",
     "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
@@ -453,8 +466,8 @@
     "evTable": {}
   },
   {
-    "id": "yormungand",
-    "name": "スマスロヨルムンガンド",
+    "id": "tokyo-revengers",
+    "name": "スマスロ 東京リベンジャーズ",
     "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
@@ -481,19 +494,6 @@
   {
     "id": "bakemonogatari",
     "name": "スマスロ 化物語",
-    "maker": "サミー",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 800,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
-  },
-  {
-    "id": "god-eater",
-    "name": "スマスロ ゴッドイーター リザレクション",
     "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
