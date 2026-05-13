@@ -379,6 +379,32 @@
     "evTable": {}
   },
   {
+    "id": "yormungand",
+    "name": "スマスロヨルムンガンド",
+    "maker": "サミー",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 800,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
+  },
+  {
+    "id": "koukaku",
+    "name": "スマスロ 攻殻機動隊",
+    "maker": "サミー",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 800,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
+  },
+  {
     "id": "tekken6",
     "name": "スマスロ鉄拳6",
     "maker": "山佐",
@@ -425,32 +451,6 @@
         "700": 5097
       }
     }
-  },
-  {
-    "id": "yormungand",
-    "name": "スマスロヨルムンガンド",
-    "maker": "サミー",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 800,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
-  },
-  {
-    "id": "koukaku",
-    "name": "スマスロ 攻殻機動隊",
-    "maker": "サミー",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 800,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
   },
   {
     "id": "god-eater",
