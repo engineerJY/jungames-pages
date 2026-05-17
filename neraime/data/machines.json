@@ -379,8 +379,8 @@
     "evTable": {}
   },
   {
-    "id": "yormungand",
-    "name": "スマスロヨルムンガンド",
+    "id": "koukaku",
+    "name": "スマスロ 攻殻機動隊",
     "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
@@ -392,8 +392,8 @@
     "evTable": {}
   },
   {
-    "id": "koukaku",
-    "name": "スマスロ 攻殻機動隊",
+    "id": "yormungand",
+    "name": "スマスロヨルムンガンド",
     "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
@@ -479,9 +479,9 @@
     "evTable": {}
   },
   {
-    "id": "magireco",
-    "name": "スマスロ マギアレコード 魔法少女まどか☆マギカ外伝",
-    "maker": "メーシー",
+    "id": "bakemonogatari",
+    "name": "スマスロ 化物語",
+    "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
     "ceilingGame": 800,
@@ -492,9 +492,9 @@
     "evTable": {}
   },
   {
-    "id": "bakemonogatari",
-    "name": "スマスロ 化物語",
-    "maker": "サミー",
+    "id": "magireco",
+    "name": "スマスロ マギアレコード 魔法少女まどか☆マギカ外伝",
+    "maker": "メーシー",
     "category": "スマスロ",
     "spec": "AT",
     "ceilingGame": 800,
