@@ -366,19 +366,6 @@
     }
   },
   {
-    "id": "kaguya",
-    "name": "パチスロ かぐや様は告らせたい",
-    "maker": "SANKYO",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 800,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
-  },
-  {
     "id": "koukaku",
     "name": "スマスロ 攻殻機動隊",
     "maker": "サミー",
@@ -392,9 +379,9 @@
     "evTable": {}
   },
   {
-    "id": "yormungand",
-    "name": "スマスロヨルムンガンド",
-    "maker": "サミー",
+    "id": "kaguya",
+    "name": "パチスロ かぐや様は告らせたい",
+    "maker": "SANKYO",
     "category": "スマスロ",
     "spec": "AT",
     "ceilingGame": 800,
@@ -453,8 +440,8 @@
     }
   },
   {
-    "id": "god-eater",
-    "name": "スマスロ ゴッドイーター リザレクション",
+    "id": "tokyo-revengers",
+    "name": "スマスロ 東京リベンジャーズ",
     "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
@@ -466,8 +453,8 @@
     "evTable": {}
   },
   {
-    "id": "tokyo-revengers",
-    "name": "スマスロ 東京リベンジャーズ",
+    "id": "god-eater",
+    "name": "スマスロ ゴッドイーター リザレクション",
     "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
@@ -495,6 +482,19 @@
     "id": "magireco",
     "name": "スマスロ マギアレコード 魔法少女まどか☆マギカ外伝",
     "maker": "メーシー",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 800,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
+  },
+  {
+    "id": "yormungand",
+    "name": "スマスロヨルムンガンド",
+    "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
     "ceilingGame": 800,
