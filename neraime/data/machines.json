@@ -440,6 +440,19 @@
     }
   },
   {
+    "id": "magireco",
+    "name": "スマスロ マギアレコード 魔法少女まどか☆マギカ外伝",
+    "maker": "メーシー",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 800,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
+  },
+  {
     "id": "god-eater",
     "name": "スマスロ ゴッドイーター リザレクション",
     "maker": "サミー",
@@ -469,19 +482,6 @@
     "id": "tokyo-revengers",
     "name": "スマスロ 東京リベンジャーズ",
     "maker": "サミー",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 800,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
-  },
-  {
-    "id": "magireco",
-    "name": "スマスロ マギアレコード 魔法少女まどか☆マギカ外伝",
-    "maker": "メーシー",
     "category": "スマスロ",
     "spec": "AT",
     "ceilingGame": 800,
