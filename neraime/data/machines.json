@@ -366,9 +366,9 @@
     }
   },
   {
-    "id": "koukaku",
-    "name": "スマスロ 攻殻機動隊",
-    "maker": "サミー",
+    "id": "kaguya",
+    "name": "パチスロ かぐや様は告らせたい",
+    "maker": "SANKYO",
     "category": "スマスロ",
     "spec": "AT",
     "ceilingGame": 800,
@@ -379,9 +379,9 @@
     "evTable": {}
   },
   {
-    "id": "kaguya",
-    "name": "パチスロ かぐや様は告らせたい",
-    "maker": "SANKYO",
+    "id": "koukaku",
+    "name": "スマスロ 攻殻機動隊",
+    "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
     "ceilingGame": 800,
@@ -466,8 +466,8 @@
     "evTable": {}
   },
   {
-    "id": "bakemonogatari",
-    "name": "スマスロ 化物語",
+    "id": "tokyo-revengers",
+    "name": "スマスロ 東京リベンジャーズ",
     "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
@@ -479,8 +479,8 @@
     "evTable": {}
   },
   {
-    "id": "tokyo-revengers",
-    "name": "スマスロ 東京リベンジャーズ",
+    "id": "bakemonogatari",
+    "name": "スマスロ 化物語",
     "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
