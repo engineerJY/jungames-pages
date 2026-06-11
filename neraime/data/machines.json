@@ -98,19 +98,6 @@
     "evTable": {}
   },
   {
-    "id": "yoshimune",
-    "name": "真打 吉宗",
-    "maker": "大都技研",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 800,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
-  },
-  {
     "id": "hokuto-tensei2",
     "name": "スマスロ北斗の拳 転生の章2",
     "maker": "サミー",
@@ -316,6 +303,19 @@
     }
   },
   {
+    "id": "yoshimune",
+    "name": "真打 吉宗",
+    "maker": "大都技研",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 800,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
+  },
+  {
     "id": "monkey-turn-v",
     "name": "Lモンキーターン V",
     "maker": "山佐ネクスト",
@@ -379,19 +379,6 @@
     "evTable": {}
   },
   {
-    "id": "koukaku",
-    "name": "スマスロ 攻殻機動隊",
-    "maker": "サミー",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 800,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
-  },
-  {
     "id": "tekken6",
     "name": "スマスロ鉄拳6",
     "maker": "山佐",
@@ -438,6 +425,19 @@
         "700": 5097
       }
     }
+  },
+  {
+    "id": "koukaku",
+    "name": "スマスロ 攻殻機動隊",
+    "maker": "サミー",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 800,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
   },
   {
     "id": "magireco",
