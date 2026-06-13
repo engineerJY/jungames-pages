@@ -72,12 +72,12 @@
     }
   },
   {
-    "id": "million-god",
-    "name": "スマスロ ミリオンゴッド-神々の軌跡-",
-    "maker": "ユニバーサル",
+    "id": "enen2",
+    "name": "Lパチスロ 炎炎ノ消防隊2",
+    "maker": "メーシー",
     "category": "スマスロ",
     "spec": "AT",
-    "ceilingGame": 1000,
+    "ceilingGame": 800,
     "ceilingGameReset": null,
     "ceilingBenefit": "",
     "quitTiming": "",
@@ -85,12 +85,12 @@
     "evTable": {}
   },
   {
-    "id": "enen2",
-    "name": "Lパチスロ 炎炎ノ消防隊2",
-    "maker": "メーシー",
+    "id": "million-god",
+    "name": "スマスロ ミリオンゴッド-神々の軌跡-",
+    "maker": "ユニバーサル",
     "category": "スマスロ",
     "spec": "AT",
-    "ceilingGame": 800,
+    "ceilingGame": 1000,
     "ceilingGameReset": null,
     "ceilingBenefit": "",
     "quitTiming": "",
@@ -453,6 +453,19 @@
     "evTable": {}
   },
   {
+    "id": "bakemonogatari",
+    "name": "スマスロ 化物語",
+    "maker": "サミー",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 800,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
+  },
+  {
     "id": "god-eater",
     "name": "スマスロ ゴッドイーター リザレクション",
     "maker": "サミー",
@@ -468,19 +481,6 @@
   {
     "id": "tokyo-revengers",
     "name": "スマスロ 東京リベンジャーズ",
-    "maker": "サミー",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 800,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
-  },
-  {
-    "id": "bakemonogatari",
-    "name": "スマスロ 化物語",
     "maker": "サミー",
     "category": "スマスロ",
     "spec": "AT",
