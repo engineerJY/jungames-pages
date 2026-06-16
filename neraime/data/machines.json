@@ -233,6 +233,69 @@
     }
   },
   {
+    "id": "yoshimune",
+    "name": "真打 吉宗",
+    "maker": "大都技研",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 800,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
+  },
+  {
+    "id": "monkey-turn-v",
+    "name": "Lモンキーターン V",
+    "maker": "山佐ネクスト",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 795,
+    "ceilingGameReset": 495,
+    "ceilingBenefit": "AT「SGラッシュ」確定",
+    "quitTiming": "AT後1G回してやめ（ヘルメット演出確認）",
+    "zones": [],
+    "evTable": {
+      "equal": {
+        "0": -600,
+        "50": -453,
+        "100": -281,
+        "150": -81,
+        "200": 152,
+        "250": 424,
+        "300": 740,
+        "350": 1108,
+        "400": 1537,
+        "450": 2036,
+        "500": 2617,
+        "550": 3295,
+        "600": 4084,
+        "650": 5002,
+        "700": 6072,
+        "750": 7319
+      },
+      "56": {
+        "0": -1451,
+        "50": -1304,
+        "100": -1132,
+        "150": -932,
+        "200": -699,
+        "250": -427,
+        "300": -111,
+        "350": 257,
+        "400": 686,
+        "450": 1185,
+        "500": 1766,
+        "550": 2444,
+        "600": 3233,
+        "650": 4151,
+        "700": 5221,
+        "750": 6468
+      }
+    }
+  },
+  {
     "id": "valvrave2",
     "name": "L革命機ヴァルヴレイヴ2",
     "maker": "SANKYO",
@@ -303,82 +366,6 @@
     }
   },
   {
-    "id": "yoshimune",
-    "name": "真打 吉宗",
-    "maker": "大都技研",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 800,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
-  },
-  {
-    "id": "monkey-turn-v",
-    "name": "Lモンキーターン V",
-    "maker": "山佐ネクスト",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 795,
-    "ceilingGameReset": 495,
-    "ceilingBenefit": "AT「SGラッシュ」確定",
-    "quitTiming": "AT後1G回してやめ（ヘルメット演出確認）",
-    "zones": [],
-    "evTable": {
-      "equal": {
-        "0": -600,
-        "50": -453,
-        "100": -281,
-        "150": -81,
-        "200": 152,
-        "250": 424,
-        "300": 740,
-        "350": 1108,
-        "400": 1537,
-        "450": 2036,
-        "500": 2617,
-        "550": 3295,
-        "600": 4084,
-        "650": 5002,
-        "700": 6072,
-        "750": 7319
-      },
-      "56": {
-        "0": -1451,
-        "50": -1304,
-        "100": -1132,
-        "150": -932,
-        "200": -699,
-        "250": -427,
-        "300": -111,
-        "350": 257,
-        "400": 686,
-        "450": 1185,
-        "500": 1766,
-        "550": 2444,
-        "600": 3233,
-        "650": 4151,
-        "700": 5221,
-        "750": 6468
-      }
-    }
-  },
-  {
-    "id": "kaguya",
-    "name": "パチスロ かぐや様は告らせたい",
-    "maker": "SANKYO",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 800,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
-  },
-  {
     "id": "tekken6",
     "name": "スマスロ鉄拳6",
     "maker": "山佐",
@@ -425,6 +412,19 @@
         "700": 5097
       }
     }
+  },
+  {
+    "id": "kaguya",
+    "name": "パチスロ かぐや様は告らせたい",
+    "maker": "SANKYO",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 800,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
   },
   {
     "id": "koukaku",
