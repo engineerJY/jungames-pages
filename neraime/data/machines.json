@@ -98,6 +98,19 @@
     "evTable": {}
   },
   {
+    "id": "yoshimune",
+    "name": "真打 吉宗",
+    "maker": "大都技研",
+    "category": "スマスロ",
+    "spec": "AT",
+    "ceilingGame": 800,
+    "ceilingGameReset": null,
+    "ceilingBenefit": "",
+    "quitTiming": "",
+    "zones": [],
+    "evTable": {}
+  },
+  {
     "id": "hokuto-tensei2",
     "name": "スマスロ北斗の拳 転生の章2",
     "maker": "サミー",
@@ -231,19 +244,6 @@
         "1200": 6949
       }
     }
-  },
-  {
-    "id": "yoshimune",
-    "name": "真打 吉宗",
-    "maker": "大都技研",
-    "category": "スマスロ",
-    "spec": "AT",
-    "ceilingGame": 800,
-    "ceilingGameReset": null,
-    "ceilingBenefit": "",
-    "quitTiming": "",
-    "zones": [],
-    "evTable": {}
   },
   {
     "id": "monkey-turn-v",
