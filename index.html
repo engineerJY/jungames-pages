@@ -40,6 +40,7 @@
             gap: 20px;
             transition: transform 0.2s;
         }
+        .app-card[hidden] { display: none; }
         .app-card:hover {
             transform: translateY(-2px);
         }
@@ -177,7 +178,7 @@
                 </div>
             </div>
         </div>
-        <div class="app-card">
+        <div class="app-card" hidden>  <!-- 非表示中（表示するときは hidden を消す） -->
             <div class="app-icon"><img src="jp-en-dict-icon.png" alt="My和英辞典"></div>
             <div class="app-info">
                 <h2>My和英辞典 <span class="badge">Released</span></h2>
@@ -188,7 +189,7 @@
             </div>
         </div>
 
-        <div class="app-card">
+        <div class="app-card" hidden>  <!-- 非表示中（表示するときは hidden を消す） -->
             <div class="app-icon"><img src="en-vocab-icon.png" alt="My気になる英単語リスト"></div>
             <div class="app-info">
                 <h2>My気になる英単語リスト <span class="badge">Released</span></h2>
